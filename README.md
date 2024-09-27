@@ -24,6 +24,6 @@ If you are adding this plugin to an existing AWX installation, run `awx-manage s
 
 ## Usage
 
-1. Create a new credential of type `ECR Token`, specify region
-2. Create a new credential of type `Container Registry`, use `AWS` as username, source password from the ECR Token credential
+1. Create a new credential of type `ECR Password`, specify region
+2. Create a new credential of type `Container Registry`, use `AWS` as username, source password from the ECR Password credential
 3. Use the `Container Registry` credential in EE
