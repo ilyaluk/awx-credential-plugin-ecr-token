@@ -16,7 +16,7 @@ def lookup(region):
 
 
 ecr_plugin = CredentialPlugin(
-    'ECR Token Credential Plugin',
+    'ECR Password',
     inputs={
         'fields': [{
             'id': 'region',
@@ -26,5 +26,5 @@ ecr_plugin = CredentialPlugin(
         'metadata': [],
         'required': ['region'],
     },
-    backend = lookup
+    backend=lookup,
 )
